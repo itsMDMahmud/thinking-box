@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+}
+
+header{
+    background-image: url(./image/banner3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.glass{
+    height: 100px;
+    width: 100vw;
+    background-color: (135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.1)8;
+    box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.37);
+    text-align: center;
+    padding: 0 150px;
+}
+nav img{
+    width: 100px;
+    height: 80px;
+    margin-top: 10px;
+    
+}
+.nav-ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-button{
+    width: 100px;
+    height: 44px;
+    text-decoration: none;
+    padding: 10px 0;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: white;
+    color: #005fac;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.itsmahmud{
+    width: 160px;
+    height: 64px;
+    text-decoration: none;
+    padding: 20px 22px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #FF4B58;
+    color: #00154B;
+    border: none;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.container{
+    display: flex;
+    
+    justify-content: flex-end;
+    flex-direction: column;
+}
+.headline{
+    color: white;
+    font-size: 60px;
+    text-align: right;
+    width: 525px;margin-left: 650px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+   
+}
+
+.head-description{
+    color: white;
+    font-size: 18px;
+    text-align: right;width: 500px;
+    margin-left: 680px;
+    margin-bottom: 30px;
+    line-height: 1.5rem;
+    
+}
+.contact-us{
+    width: 160px;
+    height: 64px;
+    text-decoration: none;
+    padding: 20px 22px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: white;
+    color: #005fac;
+    border: none;
+    border-radius: 5px;
+    margin-left: 1020px;
+}
+.fa-solid{
+    color: #2ecc71;
+}
+.mid-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 100px 150px 100px;
+}
+.mid-right{
+    margin-left: 60px;
+}
+.mid-heading{
+    font-size: 40px;
+    font-weight: 700px;
+    margin-bottom: 35px;
+}
+.mid-description{
+    font-weight: 600;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.700);
+    line-height: 2rem;
+    margin-bottom: 35px;
+}
+.list-item{
+    color: rgba(0, 0, 0, 0.700);
+    font-weight: 600;
+    font-size: 18px;
+    list-style: none;
+    line-height: 3rem;
+}
+.my-plans{
+    text-align: center;
+    font-size: 50px;
+}
+.skill-div{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 220px 100px;
+}
+.skills-heading{
+    text-align: center;
+    margin: 15px 0;
+}
+.skill-p{
+    color: rgba(0, 0, 0, 0.700);
+}
+.skill-class{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.watch-time{
+    margin: 0 220px 100px; 
+    background: linear-gradient(to right, #083757, #44a08d00), url(./image/watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;  
+    width: 920px;
+    height: 250px;
+    border-radius: 10px;
+    padding: 40px 60px 40px;
+}
+.watch-heading{
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: white;
+}
+.call-now{
+    width: 160px;
+    height: 64px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: white;
+    color: #005fac;
+    border: none;
+    border-radius: 5px;
+}
+footer{
+    background-color: #151414;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 120px;
+    
+}
+.footer{
+    
+}
+#footer-heading{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+#footer-description{
+    line-height: 1.5rem;
+    margin-bottom: 20px;
+}
+ul li{
+    list-style: none;
+}
+.social-icon{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+.email{
+    margin-bottom: 30px;
+}
+.fbttyt{
+    margin: 30px 15px 0 0 ;
+}
+.footer-right{
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    flex-direction: column;
+}
+#subscribe{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+#email-me{
+    background-color: #151414;
+    height: 40px;
+    width: 300px;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    border: 1px solid white;
+    margin-bottom: 15px;
+}
+#subscribe-button{
+    width: 100px;
+    height: 40px;
+    background: #005fac;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
